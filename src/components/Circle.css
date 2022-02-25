@@ -1,0 +1,35 @@
+.Circle {
+  background-color: #ff5a00;
+
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transform-origin: 50%;
+
+  cursor: grab;
+  user-select: none;
+}
+
+.Circle.dragging {
+  cursor: grabbing;
+}
+
+.Circle label {
+  left: 10px;
+}
+
+.Circle input {
+  outline: none;
+  width: 50px;
+  margin-left: 20px;
+  background: none;
+  border: 1px none black;
+  border-bottom-style: solid;
+  text-align: center;
+}

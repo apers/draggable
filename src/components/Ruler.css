@@ -1,0 +1,28 @@
+.Ruler {
+    position: absolute;
+    width: 500px;
+    background-color: #182c50;
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ruler .input-container {
+    background-color: #182c50;
+    height: 50px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.Ruler input {
+    color: #ffffff;
+    outline: none;
+    width: 50px;
+    background: none;
+    border: none;
+    text-align: center;
+}
